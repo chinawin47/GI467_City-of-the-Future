@@ -2,7 +2,7 @@
  * Copyright (c) 2024-2025 SIOCODE LLC.
  * 
  * All rights reserved. This script and its source code are the property of 
- * SIOCODE LLC., Hungary, 8600 Siófok, Barackfa utca 18.
+ * SIOCODE LLC., Hungary, 8600 Siï¿½fok, Barackfa utca 18.
  * 
  * Redistribution and modification of this source code, in whole or in part, 
  * with or without alterations, are strictly prohibited.
@@ -347,7 +347,7 @@ namespace SIOCODE
 
             private static string DetectRenderPipeline()
             {
-                RenderPipelineAsset currentPipeline = GraphicsSettings.renderPipelineAsset;
+                RenderPipelineAsset currentPipeline = GraphicsSettings.defaultRenderPipeline;
 
                 if (currentPipeline == null)
                     return "STANDARD";
@@ -369,7 +369,7 @@ namespace SIOCODE
                 previewUtility.camera.farClipPlane = 100f;
                 previewUtility.camera.nearClipPlane = 0.01f;
 
-                // We’ll mark that we need an initial preview build.
+                // Weï¿½ll mark that we need an initial preview build.
                 needsPreviewUpdate = true;
 
                 // Find base material
